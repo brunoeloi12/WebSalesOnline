@@ -1,4 +1,7 @@
 import styled from 'styled-components';
+import { Typography } from 'antd';
+
+const { Title } = Typography;
 
 export const BodyLogin = styled.body`
   margin: 0;
@@ -31,6 +34,10 @@ export const ContainerLoginLeft = styled.div`
 `;
 
 export const LogoLogin = styled.img`
-  width: 100px;
+  width: 200px;
   height: auto;
+`;
+
+export const TitleLogin = styled(Title)`
+  colocor: #e9ab00ff;
 `;
