@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="150" height="150">
+  <defs>
+     <linearGradient id="brandGrad2" x1="0%" y1="50%" x2="100%" y2="50%">
+      <stop offset="0%" style="stop-color:#FF8C00;stop-opacity:1" /> <stop offset="100%" style="stop-color:#FFC107;stop-opacity:1" /> </linearGradient>
+  </defs>
+
+  <g fill="#FF8C00">
+    <path d="M45,25 L75,35 L55,45 L25,35 Z" fill="#FFC107"/>
+    <path d="M25,35 L55,45 L55,75 L25,60 Z" fill="#FF9800"/>
+    <path d="M75,35 L55,45 L55,75 L75,60 Z" fill="#E65100"/>
+  </g>
+  
+  <path fill="url(#brandGrad2)" d="M15,65 C15,65 30,85 55,85 C75,85 95,70 95,50 C95,50 85,65 65,65 C45,65 35,55 15,65 Z" opacity="0.9"/>
+  
+  <rect x="5" y="55" width="15" height="4" rx="2" fill="#FFC107" opacity="0.6"/>
+  <rect x="15" y="45" width="10" height="4" rx="2" fill="#FFC107" opacity="0.4"/>
+</svg>

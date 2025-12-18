@@ -1,10 +1,21 @@
-import { BackgrounImage } from '../styles/loginScreen.styles';
+import Input from '../../shered/inputs/input';
+import {
+  BackgrounImage,
+  ContainerLoginLeft,
+  BodyLogin,
+  LogoLogin,
+} from '../styles/loginScreen.styles';
 
 const LoginScreen = () => {
   return (
-    <div>
+    <BodyLogin>
       <BackgrounImage src="../../../public/background.png" />
-    </div>
+      <ContainerLoginLeft>
+        <LogoLogin src="../../../public/logoLogin.svg" />
+        <Input title="Usuario" />
+        <Input title="Senha" />
+      </ContainerLoginLeft>
+    </BodyLogin>
   );
 };
 
